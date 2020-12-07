@@ -76,11 +76,12 @@ WSGI_APPLICATION = 'dmd.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'docker',
-        'USER': 'docker',
-        'PASSWORD': 'docker',
+        'NAME': 'simicrofin_jdgp',
+        'USER': 'evillanueva',
+        'PASSWORD': 'evillanueva',
         "DEFAULT-CHARACTER-SET": 'utf8',
         'HOST': 'db',
+        #'HOST': '127.0.0.1',
         'PORT': 3306,
     }
 }

@@ -1,0 +1,28 @@
+# Local development dependencies go here
+-r common.txt
+
+# ~ DEBUGGING
+# --------------------
+Werkzeug==0.12.2
+django-extensions==2.1.0
+ipdb==0.11
+django-debug-toolbar==1.9.1
+colorlog==3.1.4
+isort
+
+# ~ TESTING
+# --------------------
+coverage==4.5.1
+django-coverage-plugin==1.3.1
+django-test-plus==1.1.1
+factory_boy==2.7.0
+
+pytest==3.7.1
+pytest-django==3.3.3
+pytest-sugar==0.9.1
+pytest-cov==2.5.1
+
+
+# ~ DOCUMENTATION
+# --------------------
+
